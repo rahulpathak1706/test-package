@@ -1,6 +1,6 @@
 <?php
 
-namespace testPlus\plus;
+namespace test-plus\plus;
 
 class PlusClass {
 
