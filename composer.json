@@ -1,0 +1,19 @@
+{
+    "name": "abc/plus",
+    "description": "First package",
+    "version": "1.0.0",
+    "autoload": {
+        "psr-4": {
+            "abc\\plus\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Rahul Pathak",
+            "email": "shovik.is.here@gmail.com"
+        }
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "^7.0.1"
+    }
+}
