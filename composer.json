@@ -2,6 +2,7 @@
     "name": "test-plus/plus",
     "description": "First package",
     "version": "1.0.0",
+    "type": "library",
     "autoload": {
         "psr-4": {
             "test-plus\\plus\\": "src/"
@@ -10,10 +11,13 @@
     "authors": [
         {
             "name": "Rahul Pathak",
-            "email": "shovik.is.here@gmail.com"
+            "email": "rahul4422pathak@gmail.com"
         }
     ],
     "require": {
-        "guzzlehttp/guzzle": "^7.0.1"
-    }
+        "php": "^8.1",
+        "guzzlehttp/guzzle": "^7.0.1",
+        "illuminate/support": "^8.1"
+    },
+    "license": "MIT"
 }
